@@ -1,0 +1,219 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-size:auto;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    background-color: #F8FAF7
+
+}
+#banner{
+
+    background-image: url(Kiagali.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #deeff0;
+    padding: 20px;
+    text-align: center;
+    min-height: 850px;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#banner-title{
+    font-size: 300px;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 200px 0 300px 0;
+    color: #eaffe8;
+}
+#banner-subtitle{
+    font-size: 25px;
+    font-family: "Trirong", serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #04270c;
+}
+nav{ 
+    background-color: transparent;
+    background-attachment: #00050b;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+body.subpage nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 20;
+    background-color: #d2e7ff;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    justify-content: flex-end;
+}
+
+body.subpage nav ul {
+    justify-content: flex-end;
+}
+
+body.subpage nav a {
+    color: #000000;
+}
+#top-attraction {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    
+    justify-content: center;
+}
+
+#top-attraction h3 {
+    flex-basis: 100%;
+    margin: 0;
+}
+
+.attraction-card {
+    flex: 1 1 280px;
+    max-width: 360px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 14px;
+    box-sizing: border-box;
+}
+
+.attraction-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#Home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+#Home h2 {
+    flex-basis: 100%;
+    margin: 0;
+}
+
+#Home p {
+    flex: 1 1 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 14px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#activity-guide {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+#activity-guide h3 {
+    flex-basis: 100%;
+    margin: 0;
+}
+
+.activity-card {
+    flex: 1 1 280px;
+    max-width: 360px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 14px;
+    box-sizing: border-box;
+}
+
+.activity-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+/*Set photo guide layout flexbox*/
+#photo-guide {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+    justify-content: center;
+}
+/*Set text alignment*/
+#photo-guide h3,
+#photo-guide > p {
+    flex-basis: 100%;
+    margin: 0;
+    text-align: center;
+}
+/* this targets the photo and text under the photos */
+.photo-card {
+    flex: 1 1 280px;
+    max-width: 360px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 14px;
+    box-sizing: border-box;
+}
+/* Sets image sizes only*/
+.photo-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+@media screen and (max-width: 1024px) {
+
+
+    #banner-title{
+        font-size: 100px;
+    }
+
+    .header {grid-area: 1 / span 6;}
+    .menu {grid-area: 2 / span 1;}
+    .content {grid-area: 2 / span 4;}
+    .facts {grid-area: 2 / span 1;}
+    .footer {grid-area: 3 / span 6;}
+  }

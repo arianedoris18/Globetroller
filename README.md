@@ -1,2 +1,0 @@
-# Globetroller
-Kigali, Rwanda.
