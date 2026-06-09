@@ -56,7 +56,7 @@
   - Desktop homepage: Transparent overlay navigation (position: absolute) that floats above the hero image
   - Subpages + all mobile: Sticky navigation bar with solid background for better visibility and accessibility
 - **Card interactions**: On mobile, single-column stacking creates a more focused, scrollable story experience rather than scanning across multiple columns
-- ### Milestone 3
+### Milestone 3
 ## What content does this section contain and how should it be arranged? (e.g., side by side, stacked, grid-like)
 **Homepage (#Home section):**
 - Contains a heading ("About Kigali") and descriptive paragraph
