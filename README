@@ -1,4 +1,3 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
 
 ## Unit Assignment: Globetrotter
 
@@ -85,9 +84,9 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 ### Walkthrough Video
 
-`TODO://` Paste the **shareable link** to your animated app walkthrough below (replace `ADD_LOOM_LINK_HERE`). GitHub markdown won't render an embedded Loom player, so a plain link is what graders will use. Make sure the link is public and playable before submitting. (🚫 Remove this paragraph after adding your walkthrough link.)
 
-**Walkthrough video:** [Globetrotter Walkthrough](https://www.loom.com/share/e4b90c3cbde24dc48779d98f72843467)
+
+**Walkthrough video:** [Globetrotter Walkthrough](https://www.loom.com/share/1fca94fc944847fcbe78af8d0fd83c92)
 
 ### Reflection
 
@@ -104,9 +103,9 @@ All went well my peers had some cool features and more interactive features.
 ### Open-source libraries used
 
 - Add any links to open-source libraries used in your project.
+W3schools, Instructors, Peers
 
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
-My peers all instructors.
-
+My peers and all instructors.
