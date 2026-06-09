@@ -86,7 +86,11 @@
 3. **Consistent spacing**: 20px gap and padding throughout maintains visual rhythm
 4. **Border radius**: 10px rounded corners on the white card creates a soft, approachable feel
 5. **Full-width constraint**: Paragraph uses `flex: 1 1 100%` to ensure text doesn't break into multiple columns (important for readability)
-#WireFrames
+# WireFrames
+<img width="2268" height="4032" alt="IMG_5070" src="https://github.com/user-attachments/assets/ac81e850-c1fb-4cfc-a204-03020d0ac5e7" />
+<img width="3213" height="5712" alt="IMG_5067" src="https://github.com/user-attachments/assets/059565b1-cc8b-4d37-bbb3-c297d59707e3" />
+<img width="3213" height="5712" alt="IMG_5068" src="https://github.com/user-attachments/assets/601f4f0d-c24b-4da2-83e6-90ea52451a37" />
+
 
 
 
