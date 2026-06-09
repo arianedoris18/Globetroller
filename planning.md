@@ -56,3 +56,33 @@
   - Desktop homepage: Transparent overlay navigation (position: absolute) that floats above the hero image
   - Subpages + all mobile: Sticky navigation bar with solid background for better visibility and accessibility
 - **Card interactions**: On mobile, single-column stacking creates a more focused, scrollable story experience rather than scanning across multiple columns
+- ### Milestone 3
+## What content does this section contain and how should it be arranged? (e.g., side by side, stacked, grid-like)
+**Homepage (#Home section):**
+- Contains a heading ("About Kigali") and descriptive paragraph
+- **Current arrangement**: Stacked vertically with the heading taking full width and the text content in a white card below
+- **Content**: Introduces Kigali as one of Africa's cleanest cities with information about its size, population, and character
+
+## How many columns or items should appear in a row at desktop width?
+**Homepage (#Home section):**
+- **1 column layout** - Full-width text content
+- The heading spans 100% width (`flex-basis: 100%`)
+- The paragraph also spans 100% width (`flex: 1 1 100%`) in a white card
+- This is intentional for readability - long-form text shouldn't stretch too wide
+
+*(Note: Other sections like attractions, activities, and photos use 2-3 cards per row at desktop width with `max-width: 360px`)*
+
+## How should that change on a smaller screen?
+**Homepage (#Home section):**
+- **No change needed** - already single column at all widths
+- The white card with text remains full-width and readable
+- Gap spacing (20px) and padding (20px) stay consistent
+- This section naturally works well across all device sizes due to its simple stacked layout
+
+## Is there anything about the spacing, alignment, or sizing that's important to the design?
+**Yes, several key aspects:**
+1. **White card on soft background**: Text sits in white (#FFFFFF) card against soft green-tinted background (#F8FAF7) - reflects Kigali's cleanliness
+2. **Centered alignment**: All content is center-aligned (`text-align: center` on body)
+3. **Consistent spacing**: 20px gap and padding throughout maintains visual rhythm
+4. **Border radius**: 10px rounded corners on the white card creates a soft, approachable feel
+5. **Full-width constraint**: Paragraph uses `flex: 1 1 100%` to ensure text doesn't break into multiple columns (important for readability)
